@@ -3,11 +3,12 @@
 ## Break:
 Singular → special / unique
 Value → importance
-Decomposition → todna (break into parts)
-💥 Final:👉 SVD = Matrix ko 3 simple parts me todna
+Decomposition →  (break into parts)
+💥 Final:👉 SVD = Breaks Matrix into 3 simple parts 
 
 ## 🎯 CORE IDEA
-👉 all matrix A is write like: A=UΣVᵀ
+👉 👉 Any matrix A can be written as: 
+###           A=UΣVᵀ
 
 👉 here:
 U → output directions
@@ -30,6 +31,7 @@ Imagine:👉 you transform a rubber sheet (data). SVD said:
 👉align the Features  
 
 ### 2️⃣ Σ (Sigma — MOST IMPORTANT 🔥)
+👉 Number of non-zero singular values = rank of matrix
 👉 Diagonal matrix:
 
 Example:
@@ -48,7 +50,7 @@ Large σ → important  ,  Small σ → noise
 ## 🔗 SVD vs PCA (IMPORTANT)
 👉 PCA me: Covariance matrix use hota hai. Eigenvectors nikalte hain
 👉 SVD me: Direct data matrix pe kaam hota hai
-💥 Relation: 👉 PCA = SVD ka special case
+💥 Relation: 👉 👉 PCA can be computed using SVD on centered data
 
 Example:
 ```python
@@ -62,7 +64,7 @@ print("\nSingular Values:\n", S)
 print("\nV^T:\n", Vt)
 ```
 
-🔍 VERIFY (VERY IMPORTANT)
+## 🔍 VERIFY (VERY IMPORTANT)
 ```python
 # Original matrix
 A = np.array([[3, 1],
@@ -84,5 +86,18 @@ print("\nOriginal A:\n", A)                 #     Original A:[[3 1]
 print("\nReconstructed A:\n", A_reconstructed)  # Reconstructed A:[[3. 1.]
                                                 #                  [1. 3.]]
 ```
-👉 it give same A 
+👉 👉 Reconstructed matrix ≈ original matrix
+👉 U and V are orthogonal matrices (rotations)
 
+
+## 🧠 Deep Insight
+
+👉 SVD works for ANY matrix (square or rectangular)  
+👉 It separates transformation into rotation + scaling + rotation  
+👉 Large singular values → important patterns  
+👉 Small singular values → noise  
+
+👉 Used for:
+- PCA
+- Image compression
+- Recommendation systems
