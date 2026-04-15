@@ -1,34 +1,83 @@
-## 📅 Day 1: Vectors
+# 🧠 Linear Algebra → Machine Learning Journey
 
-### 📚 Concepts Covered
-- Vector basics (direction + magnitude)
-- Linear combination
-- Span
+> 🚀 From math → to real-world AI projects
 
----
-
-### ✍️ Practice Work
-- Solved vector addition problems
-- Practiced scalar multiplication
-- Calculated magnitude manually
+This repository documents my journey of learning **Linear Algebra** and applying it to **Machine Learning projects**.
 
 ---
 
-### 💻 Implementation (NumPy)
-- Created vectors using NumPy arrays
-- Performed:
-  - Vector addition
-  - Scalar multiplication
-  - Dot product
+## 📂 Repository Structure
+linear_algebra/
+│
+├── concepts/
+│ ├── vectors/
+│ ├── matrices/
+│ ├── eigenvalues/
+│ ├── pca/
+│ ├── svd/
+│
+├── projects/
+│ ├── svd_image_compression/
+
 
 ---
 
-## 🧠 What I Learned
-- Vectors represent data in Machine Learning
-- Linear combination helps generate new vectors
-- Span represents all possible outputs from given vectors
+## 📚 Concepts Covered
+
+All topics are organized inside the `concepts/` folder:
+
+### 🔹 Vectors
+- Magnitude & direction  
+- Linear combination  
+- Span  
+
+### 🔹 Matrices
+- Matrix operations  
+- Multiplication  
+- Transformations  
+
+### 🔹 Eigenvalues & Eigenvectors
+- Eigen decomposition  
+- Matrix transformation intuition  
+
+### 🔹 PCA (Principal Component Analysis)
+- Dimensionality reduction  
+- Variance maximization  
+
+### 🔹 SVD (Singular Value Decomposition)
+- Matrix factorization  
+- Data compression  
 
 ---
 
-## ❓ Challenges
-- Span concept needs deeper understanding
+## 🚀 Projects
+
+### 🔥 SVD Image Compression
+
+Compress images using **Singular Value Decomposition** by keeping only the most important singular values.
+
+### 📌 Features:
+- Reduces image size  
+- Preserves important features  
+- Demonstrates real-world use of SVD  
+
+
+## ⚙️ Tech Stack
+
+- Python 🐍  
+- NumPy   
+- 👉 Pillow = Python library for images 🖼️
+---
+
+## 📈 Future Goals
+
+- Implement PCA on real-world datasets  
+- Build recommendation system  
+- Explore deep learning foundations  
+
+---
+
+## 🙌 Author
+
+**Priya**  
+Learning AI from scratch 🚀

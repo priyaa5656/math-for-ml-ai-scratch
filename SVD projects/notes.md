@@ -19,6 +19,7 @@ SVD is a method to break a matrix into 3 parts:
 
 A = U Σ Vᵀ
 
+
 - U → structure (how data is arranged)  
 - Σ → importance (which parts matter most)  
 - Vᵀ → details (input patterns)  

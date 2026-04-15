@@ -69,14 +69,12 @@ plt.show()
 ```python
 plt.scatter(X_pca[:,0], X_pca[:,1])
 ```
-👉 Data is now in 2D   
-
----
+👉 Data becomes visible in 2D
 
 ## 🧠 Key Understanding
 - plot → line graph  
 - scatter → points graph  
-- show() → display  
+- show() → display vgraph 
 
 ---
 
