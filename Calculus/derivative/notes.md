@@ -181,33 +181,54 @@ print()
 
 ## derivatives you'll encounter in neural networks:
 
-Function	Derivative	Notes
-Power Functions		
-f(x) = c (constant)	              | f'(x) = 0	                       |   Constant rule
-f(x) = x	                          | f'(x) = 1	                       |Identity function
-f(x) = x²	                       |f'(x) = 2x	                       | Power rule
-f(x) = x³	                       |f'(x) = 3x²	                       |Power rule
-f(x) = xⁿ	                       |f'(x) = nxⁿ⁻¹	                    |General power rule
-f(x) = √x = x^(1/2)	              |f'(x) = 1/(2√x)	                 |Square root
-f(x) = 1/x = x^(-1)                |f'(x) = -1/x²	                    |Reciprocal
-## Exponential & Logarithmic		
-f(x) = eˣ	                       |f'(x) = eˣ	                       |Natural exponential
-f(x) = aˣ	                       |f'(x) = aˣ ln(a)	                 |General exponential
-f(x) = ln(x)	                    |f'(x) = 1/x	                       |Natural logarithm
-f(x) = log_a(x)	                 |f'(x) = 1/(x ln(a))                |General logarithm
-## Trigonometric Functions		
-f(x) = sin(x)	                    |f'(x) = cos(x) 	                 |Sine
-f(x) = cos(x)	                    |f'(x) = -sin(x)	                 |Cosine
-f(x) = tan(x)	                    |f'(x) = sec²(x) = 1/cos²(x)	     |Tangent
-f(x) = cot(x)	                    |f'(x) = -csc²(x) = -1/sin²(x)	     |Cotangent
-f(x) = sec(x)	                    |f'(x) = sec(x)tan(x)	              |Secant
-f(x) = csc(x)	                    |f'(x) = -csc(x)cot(x)	           |Cosecant
-## Neural Network Functions		                
-f(x) = sigmoid(x) = 1/(1+e^(-x))	  |f'(x) = f(x)(1-f(x))	              |Sigmoid
-f(x) = tanh(x)	                    |f'(x) = 1 - tanh²(x)	              |Hyperbolic tangent
-f(x) = ReLU(x) = max(0,x)	        |f'(x) = {1 if x>0, 0 if x≤0}	     |Rectified Linear Unit
-f(x) = Leaky ReLU(x)	              |f'(x) = {1 if x>0, α if x≤0}	     |Leaky ReLU (α≈0.01)
-f(x) = softmax(x)	                 |Complex (see softmax section)	     |Softmax
+## Power Functions
+
+| Function | Derivative | Notes |
+|----------|-----------|------|
+| f(x) = x | f'(x) = 1 | Identity function |
+| f(x) = c (constant) | f'(x) = 0 | Constant rule |
+| f(x) = x^2 | f'(x) = 2x | Power rule |
+| f(x) = x^3 | f'(x) = 3x^2 | Power rule |
+| f(x) = x^n | f'(x) = n x^(n-1) | General power rule |
+| f(x) = √x = x^(1/2) | f'(x) = 1/(2√x) | Square root |
+| f(x) = 1/x = x^(-1) | f'(x) = -1/x^2 | Reciprocal |
+
+---
+
+## Exponential & Logarithmic
+
+| Function | Derivative | Notes |
+|----------|-----------|------|
+| f(x) = e^x | f'(x) = e^x | Natural exponential |
+| f(x) = a^x | f'(x) = a^x ln(a) | General exponential |
+| f(x) = ln(x) | f'(x) = 1/x | Natural logarithm |
+| f(x) = log_a(x) | f'(x) = 1/(x ln(a)) | General logarithm |
+
+---
+
+## Trigonometric Functions
+
+| Function | Derivative | Notes |
+|----------|-----------|------|
+| f(x) = sin(x) | f'(x) = cos(x) | Sine |
+| f(x) = cos(x) | f'(x) = -sin(x) | Cosine |
+| f(x) = tan(x) | f'(x) = sec^2(x) = 1/cos^2(x) | Tangent |
+| f(x) = cot(x) | f'(x) = -csc^2(x) = -1/sin^2(x) | Cotangent |
+| f(x) = sec(x) | f'(x) = sec(x)tan(x) | Secant |
+| f(x) = csc(x) | f'(x) = -csc(x)cot(x) | Cosecant |
+
+---
+
+## Neural Network Functions
+
+| Function | Derivative | Notes |
+|----------|-----------|------|
+| f(x) = sigmoid(x) = 1/(1+e^(-x)) | f'(x) = f(x)(1-f(x)) | Sigmoid |
+| f(x) = tanh(x) | f'(x) = 1 - tanh^2(x) | Hyperbolic tangent |
+| f(x) = ReLU(x) = max(0,x) | f'(x) = {1 if x>0, 0 if x≤0} | Rectified Linear Unit |
+| f(x) = Leaky ReLU(x) | f'(x) = {1 if x>0, α if x≤0} | Leaky ReLU (α≈0.01) |
+| f(x) = softmax(x) | Complex (see softmax section) | Softmax |
+
 
 ## Derivatives of Neural Network Functions
 🧠 First, understand a basic concept. In a Neural Network:
