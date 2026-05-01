@@ -75,38 +75,38 @@
 
 ### Q28  ,  👉 Clean data ho to kya use karna better hai?
 
-✅ ANSWERS (CHECK AFTER SOLVING)
-PART 1
-1/2
-2/6 = 1/3
-2/6 = 1/3
-3/6 = 1/2
-0
-PART 2
-1/3
-1/3
-1/13
-1/3
-1/3
-PART 3
-0.4
-1.0
-0.3
-0.36
-1.4 ❌ (invalid)
-PART 4
-Uniform
-Normal
-Equal probability
-Bell shape
-Mean = 0, std = 1
-PART 5
-4
-5
-4 (but ❌ misleading)
-Median better
-Mean = 6.5, Median = 6.5
-BONUS
-Model training / parameter estimation
-Mean
-MeanSS
+✅ ANSWERS (CHECK AFTER SOLVING)  
+PART 1  
+1/2  
+2/6 = 1/3   
+2/6 = 1/3  
+3/6 = 1/2  
+0  
+PART 2  
+1/3  
+1/3  
+1/13  
+1/3  
+1/3  
+PART 3  
+0.4  
+1.0  
+0.3  
+0.36  
+1.4 ❌ (invalid)  
+PART 4  
+Uniform  
+Normal  
+Equal probability  
+Bell shape  
+Mean = 0, std = 1  
+PART 5  
+4  
+5  
+4 (but ❌ misleading)  
+Median better  
+Mean = 6.5, Median = 6.5  
+BONUS  
+Model training / parameter estimation  
+Mean  
+MeanSS  
